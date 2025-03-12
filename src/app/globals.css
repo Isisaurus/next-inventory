@@ -1,16 +1,19 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 @theme inline {
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
 }
 
-*, *::after, *::before {
+*,
+*::after,
+*::before {
   box-sizing: border-box;
 }
 
-html, body {
+html,
+body {
   height: 100%;
   width: 100%;
-  @apply text-sm bg-neutral-500 text-neutral-900;
+  @apply text-sm text-neutral-900;
 }
